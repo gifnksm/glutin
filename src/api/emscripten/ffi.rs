@@ -27,6 +27,7 @@ pub struct EmscriptenWebGLContextAttributes {
     pub majorVersion: libc::c_int,
     pub minorVersion: libc::c_int,
     pub enableExtensionsByDefault: EM_BOOL,
+    pub explicitSwapControl: EM_BOOL,
 }
 
 // values for EMSCRIPTEN_RESULT
